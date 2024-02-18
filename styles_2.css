@@ -1,0 +1,31 @@
+/* Стили для раздела с текстом "ABOUT US" */
+.about-us-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px; /* Изменено для приподнятия блока вверх */
+}
+
+.about-us-text {
+    width: 592px;
+    height: 210px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+    margin-top: 20px; /* Изменено для более точного выравнивания */
+}
+
+.about-label {
+    width: 200px; /* Размер подобран в соответствии с вашим текстом "ABOUT US" */
+    height: 210px;
+    font-family: 'Larsseit';
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.006em;
+    color: #22356F;
+    margin-top: -20px; /* Изменено для более точного выравнивания */
+}
